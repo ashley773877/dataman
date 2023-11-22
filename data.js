@@ -7,6 +7,7 @@ const n4 = 5;
 
 
 const isSum50 = (n1 + n2 + n3 + n4) == 50;
+console.log(isSum50);
 
 const isTwoOdd = (n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2;
 
@@ -36,7 +37,10 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   console.log("the result is -25"); 
 
   // change isover25
-  const isUnderOrEqualTo25 = n1 + n2 + n3 + // couldnt complete
+  const isUnderOrEqualTo25 = n1 + n2 + n3 // couldnt complete
+
+  //Pt. 2 practical math 
+  
 
 
 
