@@ -74,7 +74,12 @@ if (cost55 <= fuelBudget) {
       totalCost = cost75;                                        
 } else {
     console.log("budget is not enough for the entire trip")
-}
+} // BUDGEt was enough 
+
+//section 3 future exploretion
+
+
+
  
 
 
