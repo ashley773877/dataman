@@ -27,4 +27,8 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   const alldivisibleby5 = n1 % 5 === 0 && n2 % 5 === 0 && n3 % 5 === 0 && n4 % 5 === 0;
   console.log(alldivisibleby5);
 
+  // is first number larger than last
+  const isfirstlarger = n1 > n4;
+  console.log(isfirstlarger);
   
+
