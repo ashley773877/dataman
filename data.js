@@ -33,5 +33,8 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
 
   //arithmetic chain
   const result = ( n1 - n2) * n3 % n4; 
-  console.log(result);
+  console.log(result); 
+
+  // change isover25
+  const isUnderOrEqualTo25 = n1 + n2 + n3 +
 
