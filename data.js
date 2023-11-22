@@ -55,7 +55,12 @@ const fuel55 = calculateFuelNeeded(55);
 const fuel60 = calculateFuelNeeded(60);
 const fuel75 = calculateFuelNeeded(75);
 
-// totoal
+// total cost of fuel at each speed
+const cost55 = fuel55 * costPerGallon;
+const cost60 = fuel60 * costPerGallon;
+const cost75 = furl70 * costPerGallon;
+
+
 
 
 
