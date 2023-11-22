@@ -25,16 +25,20 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
 
   //are all # dividible by 5
   const alldivisibleby5 = n1 % 5 === 0 && n2 % 5 === 0 && n3 % 5 === 0 && n4 % 5 === 0;
-  console.log(alldivisibleby5);
+  console.log("they are all divisible by 5");
 
   // is first number larger than last
   const isfirstlarger = n1 > n4;
-  console.log(isfirstlarger);
+  console.log("the first number is larger than the second");
 
   //arithmetic chain
   const result = ( n1 - n2) * n3 % n4; 
-  console.log(result); 
+  console.log("the result is -25"); 
 
   // change isover25
-  const isUnderOrEqualTo25 = n1 + n2 + n3 +
+  const isUnderOrEqualTo25 = n1 + n2 + n3 + // couldnt complete
+
+
+
+
 
