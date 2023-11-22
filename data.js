@@ -40,9 +40,17 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   const isUnderOrEqualTo25 = n1 + n2 + n3 // couldnt complete
 
   //Pt. 2 practical math 
-  
+  const totalDistance = 1500; // miles
+  const fuelEfficiency = {
+    55: 30, 60: 28, 75: 23,
+  };
+  const fuelBudget = 175; // dollars
+  const costPerGallon = 3; // dollars 
 
+  //fuel needed for the entire trip 
+  const calculateFuelNeeded = (speed) => totalDistance / fuelEfficiency[speed];
 
+// 
 
 
 
