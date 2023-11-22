@@ -60,7 +60,18 @@ const cost55 = fuel55 * costPerGallon;
 const cost60 = fuel60 * costPerGallon;
 const cost75 = furl70 * costPerGallon;
 
-
-
+// see which speed stays better budget
+let speed;
+let totalCost
+if (cost55 <= fuelBudget) {
+    console.log(" 55 is enough");
+} else if (cost60 <= fuelBudget) {
+    console.log("60 is enough");
+} else if (cost75 <= fuelBudget) {
+    console.log("75 is enough")
+} else {
+    console.log("budget is not enough for the entire trip")
+}
+ 
 
 
