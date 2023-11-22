@@ -30,5 +30,8 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   // is first number larger than last
   const isfirstlarger = n1 > n4;
   console.log(isfirstlarger);
-  
+
+  //arithmetic chain
+  const result = ( n1 - n2) * n3 % n4; 
+  console.log(result);
 
