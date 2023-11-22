@@ -50,7 +50,12 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   //fuel needed for the entire trip 
   const calculateFuelNeeded = (speed) => totalDistance / fuelEfficiency[speed];
 
-// 
+// totoal fuel needed for trip at each speed
+const fuel55 = calculateFuelNeeded(55);
+const fuel60 = calculateFuelNeeded(60);
+const fuel75 = calculateFuelNeeded(75);
+
+// totoal
 
 
 
